@@ -7,12 +7,12 @@ int main(){
     int i, n;
     float x, xStore;
 
-    printf("Insira um número x: ");
+    printf("Insira um nÃºmero x: ");
     scanf("%f", &x);
 
     xStore = x;
 
-    printf("Insira um número n: ");
+    printf("Insira um nÃºmero n: ");
     scanf("%i", &n);
 
     system("cls");

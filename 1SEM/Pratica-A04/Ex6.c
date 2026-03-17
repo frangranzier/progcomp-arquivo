@@ -4,10 +4,10 @@
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    int i, n;
-    float x, soma;
+    int i, n, x, somaPares, impares, somaFinal;
 
-    soma = 0;
+    somaPares = 0;
+    impares = 0;
 
     printf("Insira um valor n: ");
     scanf("%i", &n);
@@ -17,15 +17,22 @@ int main(){
     for(i=1; i<n+1; i++){
 
         printf("Insira o valor #%i: ", i);
-        scanf("%f", &x);
+        scanf("%i", &x);
 
-        soma+=x;
+        if (x%2==0){
+            somaPares+=x;
+        }
+        else {
+            impares+=1;
+        }
 
     }
 
+    somaFinal = somaPares + impares;
+
     system("cls");
 
-    printf("A soma dos %i valores inseridos equivale a %.2f\n\n", n, soma);
+    printf("A soma dos valores pares + a quantidade de números impares inseridos equivale a %i.\n\n", somaFinal);
 
     system("pause");
     return 0;

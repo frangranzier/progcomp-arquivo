@@ -7,7 +7,7 @@ int main(){
     int i;
     float n;
 
-    printf("Insira um número: ");
+    printf("Insira um nÃºmero: ");
     scanf("%f", &n);
 
     system("cls");

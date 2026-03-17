@@ -6,7 +6,7 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
     int i;
 
-    printf("Os múltiplos de 7 entre 100 e 450 são: ");
+    printf("Os mÃºltiplos de 7 entre 100 e 450 sÃ£o: ");
 
     for(i=100; i<451; i++){
         if (i%7 == 0){

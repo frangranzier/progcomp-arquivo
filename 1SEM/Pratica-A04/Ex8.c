@@ -4,27 +4,27 @@
 
 int main(){
     setlocale(LC_ALL, "Portuguese");
-    int i, n, x, y, z, zStore;
+    int i, n, x, y, z;
 
     x = 0;
     y = 1;
-    z = 1;
+    z = 0;
 
-    printf("Insira um n�mero n: ");
+    printf("Insira um número n: ");
     scanf("%i", &n);
 
-    for(i=0; i<n; i++){
+    system("cls");
 
-        zStore = z;
+    printf("Os %i primeiros digitos da sequência de fibonacci são: ", n);
+    printf("%i %i ", x, y);
+
+    for(i=0; i<n-2; i++){
 
         z = x + y;
-
         x = y;
+        y = z;
 
-        y = zStore;
-
-        printf("%i ", x);
-
+        printf("%i ", z);
     }
 
     printf("\n\n");

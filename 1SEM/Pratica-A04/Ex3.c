@@ -7,7 +7,7 @@ int main(){
     int plano;
     float salario;
 
-    printf("Insira seu salário: ");
+    printf("Insira seu salÃ¡rio: ");
     scanf("%f", &salario);
     printf("Insira seu plano de trabalho (1-3): ");
     scanf("%i", &plano);
@@ -16,15 +16,15 @@ int main(){
 
     switch(plano){
         case 1:
-            printf("Seu aumento de salário foi de 10%, com novo valor de R$%.2f.\n\n", salario*1.1);
+            printf("Seu aumento de salÃ¡rio foi de 10%, com novo valor de R$%.2f.\n\n", salario*1.1);
             break;
 
         case 2:
-            printf("Seu aumento de salário foi de 15%, com novo valor de R$%.2f.\n\n", salario*1.15);
+            printf("Seu aumento de salÃ¡rio foi de 15%, com novo valor de R$%.2f.\n\n", salario*1.15);
             break;
 
         case 3:
-            printf("Seu aumento de salário foi de 20%, com novo valor de R$%.2f.\n\n", salario*1.2);
+            printf("Seu aumento de salÃ¡rio foi de 20%, com novo valor de R$%.2f.\n\n", salario*1.2);
             break;
 
         case 4:

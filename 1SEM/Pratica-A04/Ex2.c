@@ -6,25 +6,25 @@ int main(){
     setlocale(LC_ALL, "Portuguese");
     int codigo;
 
-    printf("Insira o cÛdigo do produto: ");
+    printf("Insira o c√≥digo do produto: ");
     scanf("%i", &codigo);
 
     system("cls");
 
     switch(codigo){
         case 1:
-            printf("Alimento n„o-perecÌvel.\n\n");
+            printf("Alimento n√£o-perec√≠vel.\n\n");
             break;
 
         case 2:
         case 3:
         case 4:
-            printf("Alimento perecÌvel.\n\n");
+            printf("Alimento perec√≠vel.\n\n");
             break;
 
         case 5:
         case 6:
-            printf("Vestu·rio.\n\n");
+            printf("Vestu√°rio.\n\n");
             break;
 
         case 7:
@@ -39,11 +39,11 @@ int main(){
         case 13:
         case 14:
         case 15:
-            printf("Limpeza e utensÌlios domÈsticos.\n\n");
+            printf("Limpeza e utens√≠lios dom√©sticos.\n\n");
             break;
 
         default:
-            printf("CÛdigo invalido.\n\n");
+            printf("C√≥digo invalido.\n\n");
             break;
     }
 
