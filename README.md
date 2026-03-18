@@ -7,4 +7,4 @@ Arquivo de exercícios feitos na aula prática e teórica de Programação de Co
     - Introdução à programação
     - Fundamentos da linguagem C (Estrutura geral, variáveis, comandos de entrada e saída, formatação, tipos de dados)
     - Comandos de seleção (If, else, switch)
-    - Loops (For)
+    - Loops (For, while)
