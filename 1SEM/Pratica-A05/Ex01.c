@@ -5,13 +5,14 @@
 int main(){
     setlocale(LC_ALL, "portuguese");
     float num;
-    int intervalo1, intervalo2, intervalo3, intervalo4;
+    int intervalo1 = 0, intervalo2 = 0, intervalo3 = 0, intervalo4 = 0;
 
-    do{
-        printf("Insira um número: ");
-        scanf("%f", &num);
+    printf("Insira um número: ");
+    scanf("%f", &num);
 
-        if(num >= 0 && num <= 100){
+    while(num>=0){
+
+        if(num <= 100){
             if(num > 75){
                 intervalo4++;
             }
@@ -29,10 +30,10 @@ int main(){
                 }
             }
         }
-        else{
-            continue;
-        }
-    }while(num>=0);
+
+        printf("Insira um número: ");
+        scanf("%f", &num);
+    }
 
     system("cls");
 
