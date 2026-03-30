@@ -16,3 +16,6 @@ An archive of exercises i've done during my Computer Programming lectures and at
 - Teórica (date) -> Contains the exercises done in theoric lectures, followed by the date that the lecture happened.
 - Prática A[x] -> Contains the exercises done in the practice class x.
 - Estudo (date) -> Contains exercises done at home for studying purposes, followed by the date that I did them.
+
+## Disclaimer - Language:
+- Most of the stuff in here will be in portuguese, since it's mainly exercises i've done following my professor's content.
