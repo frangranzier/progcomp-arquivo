@@ -2,7 +2,7 @@
 :gb: [English](README.md)<br>
 :brazil: [Português](README-pt.md)
 
-An archive of exercises i've done to study programming, both in my university and at home.
+An archive of exercises i've done to study programming, both in university and at home.
 
 ## Learned skills - University:
 - *[First Semester](1SEM) - C language and coding logic:*
@@ -11,6 +11,12 @@ An archive of exercises i've done to study programming, both in my university an
     - Selection statements (If, else, switch)
     - Loops (For, while)
     - Unidimensional arrays (Vectors)
+    - Matrices
+    - Pointers
+    - Strings
+    - Functions
+    - Structs
+    - Recursive Functions
 
 ## Online courses
 - mooc.fi - Java Programming I
