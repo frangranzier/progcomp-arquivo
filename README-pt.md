@@ -11,6 +11,12 @@ Arquivo de exercícios feitos para estudo, ambos no ambiente universitário e em
     - Comandos de seleção (If, else, switch)
     - Loops (For, while)
     - Arranjos unidimensionais (Vetores)
+    - Matrizes
+    - Ponteiros
+    - Strings
+    - Funções
+    - Structs (Estruturas)
+    - Recursividade
 
 ## Cursos online:
 - mooc.fi - Java Programming I
