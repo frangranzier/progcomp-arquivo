@@ -17,6 +17,7 @@ Arquivo de exercícios feitos para estudo, ambos no ambiente universitário e em
     - Funções
     - Structs (Estruturas)
     - Recursividade
+- *[Segundo Semestre](2SEM) - Programação em Assembly:*
 
 ## Cursos online:
 - mooc.fi - Java Programming I

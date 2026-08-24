@@ -17,6 +17,7 @@ An archive of exercises i've done to study programming, both in university and a
     - Functions
     - Structs
     - Recursive Functions
+- *[Second Semester](2SEM) - Assembly programming language:*
 
 ## Online courses
 - mooc.fi - Java Programming I
