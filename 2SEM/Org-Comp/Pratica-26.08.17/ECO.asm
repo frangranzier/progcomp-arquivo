@@ -16,12 +16,14 @@ TITLE Eco
 
     ; Exibe o caracter Line Feed (move o cursor para a linha seguinte)
     MOV AH,2
-    MOV DL,10 INT 21h
+    MOV DL,10 
+    INT 21h
 
     ; O código ASC do caracter Line Feed é 10 (0Ah)
     ; Exibe o caracter Carriage Return (move o cursor para o canto esquerdo da tela)
     MOV AH,2
-    MOV DL,13 INT 21h
+    MOV DL,13 
+    INT 21h
 
     ; O código ASC do caracter Carriage Return é 13 (0Dh)
     ; Exibe o caracter lido (salvo em BL)
